@@ -105,7 +105,7 @@ img {
     width: 120px;
     height: 450px;
     position: absolute;
-    top: 12%;
+    top: 120px;
     left: 8%;
     background-image: url('source/wood.jpeg');
     border-radius: 20%;
@@ -141,13 +141,13 @@ img {
 #count {
     position: absolute;
     right: 5%;
-    top: 5%;
+    top: 120px;
 }
 
 #winning {
     position: absolute;
     right: 5%;
-    top: 13%;
+    top: 190px;
 }
 
 
@@ -166,7 +166,7 @@ img {
     margin-top: 15px;
     width: 300px;
     position: absolute;
-    top: 75%;
+    top: 520px;
     left: 39%;
     padding-right: 0px;
 }
@@ -176,6 +176,7 @@ body {
     background-image: url('source/BFC.jpg');
     background-size: 100%;
     background-position-y: -18%;
+    background-repeat: no-repeat;
 }
 
 html {
