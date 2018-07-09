@@ -179,7 +179,9 @@ Game.prototype.provideHint = function() {
         }
         var generate = shuffle(b).slice(0,4)
         generate.push(this.winningNumber)
-        return shuffle(generate).join(', ')
+        return shuffle(generate).sort(function(a,b){
+            return a-b;
+        }).join(', ')
     }
 }
 
