@@ -93,7 +93,7 @@ Game.prototype.playersGuessSubmission = function(num) {
 Game.prototype.checkGuess = function() {
     if (this.winningNumber === this.playersGuess) {
         $('#hint, #player-input, #submit').prop('disabled', true);
-        $('#subtitle').text("Press the Resut button to play again!")
+        $('#subtitle').text("Press the Reset button to play again!")
         this.pastGuesses.push(this.playersGuess)
         $('#winning').text('Win: ' + winning())
         $('#guess-list li:nth-child(' + this.pastGuesses.length + ')').text(this.playersGuess).css('color', 'blue')
